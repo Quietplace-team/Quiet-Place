@@ -2,7 +2,7 @@
  
 # Day 1 - Summary
 
-# Ideation Task
+# Conception Tasks
 1. Finalize topic brainstorm
 2. Created User Persona
 3. Conduct UX research
@@ -12,7 +12,7 @@
 7. Created app userflow
 8. Begun creating main screen UI
 9. Sources audio: music and SFX.
-10. Distributed tasks along member skills
+10. Distributed tasks along member skills and strengths
 
 # Tech Tasks
 1. Setup up development environment
@@ -29,7 +29,8 @@
 # Day 2 - Summary
 
 # Tech Tasks
-1. Locomotion: teleportation, continuous movement, snap turn, continuous turning
-2. VR Hands
-3. Grab interaction
-4. Haptic feedback
+1. Create Sandbox level
+2. Locomotion: teleportation, continuous movement, snap turn, continuous turning
+3. VR Hands
+4. Grab interaction
+5. Haptic feedback
