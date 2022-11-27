@@ -30,7 +30,8 @@
 
 # Tech Tasks
 1. Create Sandbox level
-2. Locomotion: teleportation, continuous movement, snap turn, continuous turning
-3. VR Hands
+2. Locomotion: teleportation, snap turn
+3. VR Hands in progress
 4. Grab interaction
-5. Haptic feedback
+5. Simple interaction
+6. Haptic feedback
