@@ -25,3 +25,11 @@
 8. Configure build setting to Android
 9. Test APK on Quest 2
 10. Created team GitHub account
+
+# Day 2 - Summary
+
+# Tech Tasks
+1. Locomotion: teleportation, continuous movement, snap turn, continuous turning
+2. VR Hands
+3. Grab interaction
+4. Haptic feedback
