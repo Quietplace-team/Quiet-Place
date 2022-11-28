@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Intro.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 0
-    path: Assets/Scenes/Scene01.unity
+    path: Assets/Scenes/Fireplace.unity
     guid: ed7b14cf45e42d24591189661e19a2ae
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 5467aaffa9da55e4b9911528d05a4ae8,
