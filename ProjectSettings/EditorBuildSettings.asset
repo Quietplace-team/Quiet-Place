@@ -4,24 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-<<<<<<< Updated upstream
-=======
-    path: Assets/Scenes/Hand Demo.unity
-    guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 0
->>>>>>> Stashed changes
-    path: Assets/Scenes/Sandbox.unity
-    guid: 1923ac603ee32dc41a6f9ab67378d012
-  - enabled: 0
-    path: Assets/Scenes/UI.unity
-    guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 0
-    path: Assets/Scenes/Fireplace.unity
-    guid: ed7b14cf45e42d24591189661e19a2ae
+  m_Scenes: []
   m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 5467aaffa9da55e4b9911528d05a4ae8,
-      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 15edf7c4f4fa3ad4b87e4feeca142c52,
       type: 2}
