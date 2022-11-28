@@ -35,3 +35,5 @@
 4. Grab interaction
 5. Simple interaction
 6. Haptic feedback
+
+At this point things got though, but we got saved by JA!!!!!!
