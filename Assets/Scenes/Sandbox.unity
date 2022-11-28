@@ -38,7 +38,11 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
+<<<<<<< HEAD
   m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+=======
+  m_IndirectSpecularColor: {r: 0.1273174, g: 0.13414761, b: 0.12107885, a: 1}
+>>>>>>> parent of becbd76 (Update Sandbox_welcome scene)
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1126,7 +1130,11 @@ RectTransform:
   m_GameObject: {fileID: 546544259}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 2.86}
+<<<<<<< HEAD
   m_LocalScale: {x: 0.03, y: 0.03, z: 0.03}
+=======
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+>>>>>>> parent of becbd76 (Update Sandbox_welcome scene)
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 145404720}
