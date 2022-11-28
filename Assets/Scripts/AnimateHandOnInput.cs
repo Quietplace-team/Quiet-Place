@@ -15,6 +15,8 @@ public class AnimateHandOnInput : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        pinchAnimationAction.action.ReadValue<float>();
+        float triggerValue = pinchAnimationAction.action.ReadValue<float>();
+
+        Debug.Log(triggerValue);
     }
 }
