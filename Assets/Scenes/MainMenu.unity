@@ -20,13 +20,13 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientSkyColor: {r: 0.6132076, g: 0.6132076, b: 0.6132076, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 0
   m_AmbientMode: 3
-  m_SubtractiveShadowColor: {r: 0.010039152, g: 0.03923772, b: 0.11320752, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubtractiveShadowColor: {r: 0.3678177, g: 0.47706276, b: 0.7735849, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.416
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.052964076, g: 0.05580539, b: 0.05036874, a: 0.416}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -195,8 +195,8 @@ MonoBehaviour:
   m_SpriteState:
     m_HighlightedSprite: {fileID: 21300000, guid: 5cdb4e2c742cac245963834e49f2ed0b,
       type: 3}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 21300000, guid: 377dfc881118a034788579e1bd6a58d9, type: 3}
+    m_SelectedSprite: {fileID: 21300000, guid: 5cdb4e2c742cac245963834e49f2ed0b, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -276,6 +276,7 @@ MonoBehaviour:
   Panel3: {fileID: 709283981}
   Panel4: {fileID: 303050723}
   Panel5: {fileID: 261842875}
+  clickSound: {fileID: 555497078}
 --- !u!1 &46029066
 GameObject:
   m_ObjectHideFlags: 0
@@ -1831,8 +1832,8 @@ MonoBehaviour:
   m_SpriteState:
     m_HighlightedSprite: {fileID: 21300000, guid: 5cdb4e2c742cac245963834e49f2ed0b,
       type: 3}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 21300000, guid: 377dfc881118a034788579e1bd6a58d9, type: 3}
+    m_SelectedSprite: {fileID: 21300000, guid: 5cdb4e2c742cac245963834e49f2ed0b, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -1912,6 +1913,7 @@ MonoBehaviour:
   Panel3: {fileID: 303050723}
   Panel4: {fileID: 261842875}
   Panel5: {fileID: 192524617}
+  clickSound: {fileID: 555497078}
 --- !u!1 &487941677
 GameObject:
   m_ObjectHideFlags: 0
@@ -2087,6 +2089,134 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 1.301}
   m_SizeDelta: {x: 58, y: 28}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &555497077
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 555497079}
+  - component: {fileID: 555497078}
+  m_Layer: 0
+  m_Name: Audio Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &555497078
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 555497077}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 70dad9a5b845cf5408254acdd58cefd4, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.555
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &555497079
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 555497077}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.14581504, y: 0.64938843, z: 3.8050184}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &563639477
 GameObject:
   m_ObjectHideFlags: 0
@@ -3121,7 +3251,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &709283982
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4846,6 +4976,7 @@ MonoBehaviour:
   Panel3: {fileID: 303050723}
   Panel4: {fileID: 261842875}
   Panel5: {fileID: 192524617}
+  clickSound: {fileID: 555497078}
 --- !u!1 &1333075225
 GameObject:
   m_ObjectHideFlags: 0
@@ -5436,7 +5567,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1589538104}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.08, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6316,8 +6447,8 @@ MonoBehaviour:
   m_SpriteState:
     m_HighlightedSprite: {fileID: 21300000, guid: 5cdb4e2c742cac245963834e49f2ed0b,
       type: 3}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 21300000, guid: 377dfc881118a034788579e1bd6a58d9, type: 3}
+    m_SelectedSprite: {fileID: 21300000, guid: 5cdb4e2c742cac245963834e49f2ed0b, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -6397,6 +6528,7 @@ MonoBehaviour:
   Panel3: {fileID: 709283981}
   Panel4: {fileID: 261842875}
   Panel5: {fileID: 192524617}
+  clickSound: {fileID: 555497078}
 --- !u!1 &1886036811
 GameObject:
   m_ObjectHideFlags: 0
@@ -7117,8 +7249,8 @@ MonoBehaviour:
   m_SpriteState:
     m_HighlightedSprite: {fileID: 21300000, guid: 5cdb4e2c742cac245963834e49f2ed0b,
       type: 3}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 21300000, guid: 377dfc881118a034788579e1bd6a58d9, type: 3}
+    m_SelectedSprite: {fileID: 21300000, guid: 5cdb4e2c742cac245963834e49f2ed0b, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -7198,6 +7330,7 @@ MonoBehaviour:
   Panel3: {fileID: 709283981}
   Panel4: {fileID: 303050723}
   Panel5: {fileID: 192524617}
+  clickSound: {fileID: 555497078}
 --- !u!1 &2074774433
 GameObject:
   m_ObjectHideFlags: 0

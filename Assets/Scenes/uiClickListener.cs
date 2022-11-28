@@ -10,10 +10,11 @@ public class uiClickListener : MonoBehaviour
     public GameObject Panel3;
     public GameObject Panel4;
     public GameObject Panel5;
+    public AudioSource clickSound;
 
     public void OpenPanel()
     {
-
+        clickSound.Play();
         if (MainPanel != null)
         {
             bool isActive = MainPanel.activeSelf;
