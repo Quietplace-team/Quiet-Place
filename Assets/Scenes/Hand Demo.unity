@@ -2411,9 +2411,9 @@ GameObject:
   - component: {fileID: 1523833815}
   - component: {fileID: 1523833818}
   - component: {fileID: 1523833820}
-  - component: {fileID: 1523833819}
   - component: {fileID: 1523833822}
   - component: {fileID: 1523833821}
+  - component: {fileID: 1523833819}
   - component: {fileID: 1523833823}
   m_Layer: 0
   m_Name: XR Origin
