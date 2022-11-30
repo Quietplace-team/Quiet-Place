@@ -418,9 +418,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Lorem ipsum dolor sit amet, consectetur \nadipiscing elit. \nUt vel libero
-    odio. Aliquam \ntempor, odio et tempor pharetra, eros nibh \ngravida elit, non
-    tincidunt felis mi eget erat.\n"
+  m_text: "Under Development\n\nUt vel libero odio. Aliquam \ntempor, odio et tempor
+    pharetra, eros nibh \ngravida elit, non tincidunt felis mi eget erat.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3bfe88624c842c74d9e13fb9bccc48e7, type: 2}
   m_sharedMaterial: {fileID: -5722862778440441896, guid: 3bfe88624c842c74d9e13fb9bccc48e7,
@@ -1577,9 +1576,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Maintain a healthy diet\nLorem ipsum dolor sit amet, consectetur \nadipiscing
-    elit. \nUt vel libero odio. Aliquam \ntempor, odio et tempor pharetra, eros nibh
-    \ngravida elit, non tincidunt felis mi eget erat.\n"
+  m_text: "Maintain a healthy diet\n\n\nUt vel libero odio. Aliquam \ntempor, odio
+    et tempor pharetra, eros nibh \ngravida elit, non tincidunt felis mi eget erat.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3bfe88624c842c74d9e13fb9bccc48e7, type: 2}
   m_sharedMaterial: {fileID: -5722862778440441896, guid: 3bfe88624c842c74d9e13fb9bccc48e7,
@@ -4799,9 +4797,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "The virtual world is the sanest space.\nLorem ipsum dolor sit amet, consectetur
-    \nadipiscing elit. \nUt vel libero odio. Aliquam \ntempor, odio et tempor pharetra,
-    eros nibh \ngravida elit, non tincidunt felis mi eget erat.\n"
+  m_text: 'The virtual world is the sanest space.
+
+
+    Participate in virtual acitvities
+    like yoga.
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3bfe88624c842c74d9e13fb9bccc48e7, type: 2}
   m_sharedMaterial: {fileID: -5722862778440441896, guid: 3bfe88624c842c74d9e13fb9bccc48e7,
@@ -5929,7 +5931,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Yoga 1
+          m_StringArgument: Yoga 2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1996940567
