@@ -3,7 +3,212 @@ guid: 2947fecaa4f86094b9ba279cba24aae6
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__10
+    second: {fileID: 2100000, guid: 2ebc9aea7904f0f4c979dc0c5f98a2c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__109
+    second: {fileID: 2100000, guid: 3d6a7b8945e3ad84195fde5cf8788ef8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__11
+    second: {fileID: 2100000, guid: ba51490da19bf374084df70f4de67f2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__12
+    second: {fileID: 2100000, guid: 907a117e8c9466a4f983d533c035d8a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__133
+    second: {fileID: 2100000, guid: b7004c140537aab43aabbf0458bfb9c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__15
+    second: {fileID: 2100000, guid: 71d22f56911eb3849af9b61c7a814287, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__16
+    second: {fileID: 2100000, guid: 928933897a57cc3439149ee430c5f26d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__17
+    second: {fileID: 2100000, guid: a093c84696043a647991769d0c501f3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__18
+    second: {fileID: 2100000, guid: 07db334266c79604db3a61faeae534ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__19
+    second: {fileID: 2100000, guid: 3a76962b7b22ac7478a207b2b96d082d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__32
+    second: {fileID: 2100000, guid: 7322d8a7c43aa3848b202078e301eb8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__33
+    second: {fileID: 2100000, guid: 1401f4a376b98214e87a6d0a61bac10e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__34
+    second: {fileID: 2100000, guid: f2b50117ccb003c479173c28a8d495ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__35
+    second: {fileID: 2100000, guid: 746fc0a70fc05f74282e4f65d9ad144b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__37
+    second: {fileID: 2100000, guid: f6d2db23278f3f94da011b304bf52691, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__4
+    second: {fileID: 2100000, guid: a2a835beb62c3f944a6a99afab37dd9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__40
+    second: {fileID: 2100000, guid: 4acd3b54fe5a8f049b593f493c9bdfb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__5
+    second: {fileID: 2100000, guid: cc5840d913b7a614180c147a2db93363, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__6
+    second: {fileID: 2100000, guid: a593b18946ebe3a44a4aff1212f928c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__7
+    second: {fileID: 2100000, guid: e86e10ebac428f5458a2d83ba1daaf01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__8
+    second: {fileID: 2100000, guid: 46085d97819c92c439ad27a52c30c129, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__9
+    second: {fileID: 2100000, guid: be0aff7d2436c694eb7add388bcc766d, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 123
+    second: {fileID: 2800000, guid: a0f77f882fbc4444d99bd0082d239c5e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Map__0_Gradient
+    second: {fileID: 2800000, guid: b42e39d574e55664383ea98b48e9b0d2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Map__10_Gradient-Ramp
+    second: {fileID: 2800000, guid: 25ee7e0f5a295d740b915062d5d11363, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Map__12_Gradient
+    second: {fileID: 2800000, guid: f078393673fc62f4ca0080703df33d6d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Map__13_Gradient
+    second: {fileID: 2800000, guid: 0eb2ff957a5a01045af06a513507c1f7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Map__14_Gradient
+    second: {fileID: 2800000, guid: 2da3d9dcdbaa2d9498eac5ff31307d50, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Map__15_Gradient
+    second: {fileID: 2800000, guid: 26b752aed12c7da48bc9060fb3254c2f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Map__16_Gradient
+    second: {fileID: 2800000, guid: 9205f2e01faad04498afc828a2cf1e18, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Map__17_Gradient
+    second: {fileID: 2800000, guid: 76e60ed475c19544cad8dd093bb492d4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Map__18_Gradient
+    second: {fileID: 2800000, guid: e2973eff7fb454547949547a18aa67c4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Map__1_Gradient
+    second: {fileID: 2800000, guid: 2228d55eaa1686442aafc3ba01385bda, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Map__21_Gradient
+    second: {fileID: 2800000, guid: 3014ef91be2eef541897c8c71102413f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Map__3_Gradient
+    second: {fileID: 2800000, guid: d5afddca94da7684294e41563a6ce0a3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Map__4_Gradient
+    second: {fileID: 2800000, guid: d13ce2bb1fcaa1a45b209bcc537baa55, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Map__5_Gradient
+    second: {fileID: 2800000, guid: 784caba01399cfd4e93183f7aa76d794, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Map__6_Gradient
+    second: {fileID: 2800000, guid: 61f15e166c1420144a764005ff7b3db3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Map__7_Gradient
+    second: {fileID: 2800000, guid: e9d378e70972fbc4189a99faa4ddeca7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Map__8_Gradient
+    second: {fileID: 2800000, guid: d9835b8691d01234f8020ab93e5f7923, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tablo-elektronnyh-vesov-s-ukazaniem-massy-i-tseny-0012928578-preview
+    second: {fileID: 2800000, guid: b924f988706c1cd4f94aeba7619f1df9, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
