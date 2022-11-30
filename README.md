@@ -36,7 +36,7 @@
 5. Simple interaction
 6. Haptic feedback
 
-At this point things got though, but we got saved by JA!!!!!!
+At this point things got tough, but we got saved by JA!!!!!!
 
 # Day 3 - Fighting Bugs
 :(
