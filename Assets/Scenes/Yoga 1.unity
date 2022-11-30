@@ -1400,7 +1400,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0d1c018a1f046ab40b233c54f49e613e, type: 2}
+  - {fileID: 2100000, guid: 1a0eb6b588dfbe040bb62408d3082c9a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1438,7 +1438,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 728302331}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -2.196, y: 1.8099, z: -0.2949}
+  m_LocalPosition: {x: -2.202, y: 1.8099, z: -0.2949}
   m_LocalScale: {x: 2.0589879, y: 1.1279624, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1474,7 +1474,7 @@ VideoPlayer:
   m_ControlledAudioTrackCount: 0
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
-  m_Looping: 0
+  m_Looping: 1
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
@@ -1707,6 +1707,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 947572530}
+  - component: {fileID: 947572531}
   m_Layer: 0
   m_Name: VideoPlayer
   m_TagString: Untagged
@@ -1729,6 +1730,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &947572531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947572529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e0f703dcef5c0844ba4c2cbc955c93a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!65 &1000141884
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3075,8 +3088,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1422796263}
-  m_LocalRotation: {x: -0.040977433, y: 0.6974223, z: -0.040007245, w: -0.7143686}
-  m_LocalPosition: {x: 1.8553834, y: 1.7176192, z: -0.037177667}
+  m_LocalRotation: {x: 0.020137338, y: -0.6918335, z: 0.019308701, w: 0.7215179}
+  m_LocalPosition: {x: 2.0674088, y: 1.4427527, z: -0.284841}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
