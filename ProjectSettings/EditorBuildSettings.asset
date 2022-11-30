@@ -12,11 +12,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Fireplace.unity
     guid: ed7b14cf45e42d24591189661e19a2ae
   - enabled: 1
-    path: Assets/Scenes/Yoga.unity
-    guid: c1fad05da01168745adacba44406590f
+    path: Assets/Scenes/Yoga 2.unity
+    guid: 967d80fbf5afa35459839607e6111e38
+  - enabled: 1
+    path: Assets/Scenes/EatingScene.unity
+    guid: a390bd5f3c422d1409fe32e9cdbe9feb
   - enabled: 0
-    path: Assets/Scenes/Gym.unity
-    guid: 299c909f8f201f74cbdd6f4c8f385c9e
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: Assets/Scenes/Hand Demo.unity
     guid: 99c9720ab356a0642a771bea13969a05
