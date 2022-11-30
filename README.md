@@ -42,5 +42,7 @@ At this point things got though, but we got saved by JA!!!!!!
 :(
 
 # Day 4 - Recover from a crash
+:(
 
 # Day 5 - Fighting more bugs
+where's the bug swatter ??
