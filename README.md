@@ -1,4 +1,14 @@
 # Quiet Place - ARVR Africa Metathon Project
+
+# Quiet Place is a Platform that helps users cope with grief by providing a safe, peaceful and quiet place where they can express their feelings with no fear of judgement. The user also gets to interact with different materials that help them cope with grief.
+
+# Project Intro Video:
+   https://youtu.be/n_KQtPittsc
+   
+# Project Demo Video: 
+
+# Project Pitch Deck:
+  https://www.canva.com/design/DAFSxjIHE3E/eD0G10o0mF5FCbUwpygM6Q/view?utm_content=DAFSxjIHE3E&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu#2
  
 # Day 1 - Summary
 
