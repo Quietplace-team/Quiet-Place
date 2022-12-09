@@ -6,6 +6,7 @@
    https://youtu.be/n_KQtPittsc
    
 # Project Demo Video: 
+  https://youtu.be/Vw-jHxTyKAE
 
 # Project Pitch Deck:
   https://www.canva.com/design/DAFSxjIHE3E/eD0G10o0mF5FCbUwpygM6Q/view?utm_content=DAFSxjIHE3E&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu#2
